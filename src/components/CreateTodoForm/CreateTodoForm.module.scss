@@ -1,0 +1,17 @@
+.container {
+  max-width: 1200px;
+  padding-top: 10vh;
+}
+
+.buttonBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 10vh 10vw 0;
+  }
+}
